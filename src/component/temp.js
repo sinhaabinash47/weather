@@ -46,7 +46,7 @@ const Temp = () => {
             </div>
             <div className="text-white display-1">{Math.round(weatherdetails.main.temp / 10)}°<sup>c</sup></div>
             <div className="ms-4 px-5">
-              {weatherdetails.weather[0].main === "Clouds" ?  <i className="fa-solid fa-3x text-white fa-cloud"></i>: weatherdetails.weather[0].main==="Sunny"?<i className="fa-solid fa-3x fa-cloud-sun text-white"></i>:<i className="fa-solid fa-cloud-showers-heavy"></i>}
+              {weatherdetails.weather[0].main === "Clouds" ?  <i className="fa-solid fa-3x text-white fa-cloud"></i>: weatherdetails.weather[0].main==="Sunny"?<i className="fa-solid fa-3x fa-cloud-sun text-white"></i>:<i className="fa-solid text-white fa-cloud-showers-heavy"></i>}
               <p className="text-white h4">Clear</p>
               </div>
           </div>
